@@ -1,6 +1,7 @@
 body, img, ul, li {
 	padding:0;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -136,4 +137,41 @@ li.portfolio-item, .portfolio-item img {
 }
 .soc:hover .soc-img-a {
 	display:block;
+}
+
+@media screen and (max-width: 1000px) {
+	.main-navigation {
+		width: 35px;
+		height: 25px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		right: 20px;
+		background: url(img/menu-icon.png) top right no-repeat;	
+		cursor:pointer;
+	}
+	.main-navigation li {
+		display: none;
+		margin: 0;
+		border-top: solid 1px #aaa;
+		background-color: #222;
+	}
+	.main-navigation li:first-child {
+		margin-top:30px;
+	}
+	.main-navigation a {
+		display: block;
+		padding: 5px 20px;
+		text-align: left;
+	}
+	.main-navigation a:hover {
+		background-color: #333;
+	}
+	.main-navigation:hover {
+		width: 200px;
+		background-color: #222;
+	}
+	.main-navigation:hover li {
+		display: block;
+	}
 }
