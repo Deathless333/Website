@@ -1,0 +1,139 @@
+body, img, ul, li {
+	padding:0;
+	margin: 0;
+}
+
+header {
+	background-image: url('img/bg-slider.png');
+	padding-bottom:60%;
+	background-size: cover;
+}
+.clear {
+	clear:both;
+}
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+
+nav {
+	top: 50px;
+	right: 0;
+	position:absolute;
+}
+
+ul {
+	list-style-type: none;
+}
+.item {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.item a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.wrap {
+	text-align: center;
+	margin-bottom:500px;
+	max-width:1096px;
+	margin:0 auto;
+}
+
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+li.portfolio-item, .portfolio-item img {
+	width: 271px;
+	height: 279px;
+}
+.portfolio-detail {
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: rgba(48, 48, 48, 0.6);
+	width: 271px;
+	height: 279px;
+	color: white;
+	display: none;
+}
+.portfolio-detail h3 {
+	margin-top: 100px;
+}
+.portfolio-item:hover .portfolio-detail {
+	display: block;
+}
+
+/*.point {
+	width:8px;
+	height:8px;
+	background:#e8e8e8;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	margin:0 auto;
+}
+.point:before, .point:after {
+	width:23px;
+	height:1px;
+	background:#e8e8e8;
+	content:"";
+	display:block;
+	margin-top:3px;
+}
+.point:before {
+	margin-left:-32px;
+}
+.point:after {
+	margin-left:16px;
+}*/
+.point2 {
+	width:8px;
+	height:8px;
+	background:#e8e8e8;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	margin:0 5px;
+}
+.point2, .point-l {
+	display:inline-block;
+}
+.point-l {
+	width:23px;
+	height:1px;
+	background:#e8e8e8;
+	margin-bottom:3px;
+}
+.soc {
+	border:1px solid grey;
+	width:42px;
+	height:42px;
+	border-radius:21px;
+	cursor:pointer;
+	box-shadow:0 0 5px grey;
+	display:inline-block;
+	margin: 0 15px;
+}
+.soc-img {
+	display:block;
+}
+.soc-img-a {
+	display:none;
+}
+.soc:hover {
+	background-color:grey;
+}
+.soc:hover .soc-img {
+	display:none;
+}
+.soc:hover .soc-img-a {
+	display:block;
+}
